@@ -1,7 +1,7 @@
 # 1001-ps-Dijkstra_Segment-Tree
 10월 1주차 다익스트라 &amp; 세그먼트 트리 
 ### 구현(1), 세그먼트 트리(5), 다익스트라(1)
-[BOJ 12837 가계부 Hard](https://www.acmicpc.net/problem/12837)
+[BOJ 12837 가계부 (Hard)](https://www.acmicpc.net/problem/12837)
 
 [BOJ 14427 수열과 쿼리 15](https://www.acmicpc.net/problem/14427)
 
