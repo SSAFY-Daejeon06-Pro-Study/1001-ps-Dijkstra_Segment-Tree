@@ -77,7 +77,6 @@ public class BOJ_10999_구간합구하기2 {
         }
         System.out.println(sb);
     }
-
     private static long sum(int start, int end, int node, int left, int right) {
         updateLazy(start, end, node);
         if (right < start || end < left) return 0;
@@ -85,7 +84,6 @@ public class BOJ_10999_구간합구하기2 {
         int mid = (start + end) >> 1;
         return sum(start, mid, node << 1, left, right) + sum(mid + 1, end, (node << 1) + 1, left, right);
     }
-
 
     private static void update(int start, int end, int node, int left, int right, long value) {
         updateLazy(start, end, node);
@@ -122,7 +120,7 @@ public class BOJ_10999_구간합구하기2 {
             lazy[node] = 0;
         }
     }
-
+    // init 메서드
     private static void init(int start, int end, int node) {
         if (start == end) {
             segTree[node] = arr[start];
