@@ -128,4 +128,3 @@ public class Main_BJ_18436_수열과쿼리37 {
         }
     }
 }
-

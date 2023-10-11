@@ -121,6 +121,3 @@ public class Main_BJ_14428_수열과쿼리16 {
 
 }
 
-
-
-
