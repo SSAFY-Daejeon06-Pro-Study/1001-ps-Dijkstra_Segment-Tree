@@ -97,4 +97,3 @@ public class Main_BJ_14427_수열과쿼리15 {
         }
     }
 }
-
